@@ -1,16 +1,15 @@
-// let a = +prompt("birinchi misol: birinchi soni kiriting");
-// let b = +prompt("birinchi misol: ikkiinchi soni kiriting");
-// let c = +prompt("birinchi misol: uchinchi soni kiriting");
+let a = +prompt("birinchi misol: birinchi soni kiriting");
+let b = +prompt("birinchi misol: ikkiinchi soni kiriting");
+let c = +prompt("birinchi misol: uchinchi soni kiriting");
 
-// function num(a, b, c) {
-//     let j = Math.max(a, b, c)
-//     alert(j);
-//     let j2 = Math.min(a, b, c);
-//     alert(j2);
-// }
+function num(a, b, c) {
+    let j = Math.max(a, b, c)
+    alert(j);
+    let j2 = Math.min(a, b, c);
+    alert(j2);
+}
 
-// num(a, b, c);
-
+num(a, b, c);
 // function num(a, b, c) {
 
 //     if (a > b && a > c) {
@@ -37,16 +36,16 @@
 
 
 
-// let d = +prompt("ikkinchi misol: birinchi sonni kiriting");
-// let e = +prompt("ikkinchi misol: birinchi sonni kiriting");
+let d = +prompt("ikkinchi misol: birinchi sonni kiriting");
+let e = +prompt("ikkinchi misol: birinchi sonni kiriting");
 
-// function num2(d, e) {
-//     let w = d / e
-//     if (d / e) {
-//         alert(+d + " Niqob " + e + " odamga " + w + " tadan taqsimlanadi.");
-//     }
-// }
-// num2(d, e)
+function num2(d, e) {
+    let w = d / e
+    if (d / e) {
+        alert(+d + " Niqob " + e + " odamga " + w + " tadan taqsimlanadi.");
+    }
+}
+num2(d, e)
 // num2 = prompt("ikkinchi misol: birinchi sonni kiriting")
 // num2 = prompt("ikkinchi misol: ikkinchi sonni kiriting")
 
